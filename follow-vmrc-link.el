@@ -1,5 +1,5 @@
 ;;
-;; Support VMRC links in Org Mode on Mac OS X
+;; Support VMRC links in Emacs Org Mode on Mac OS X
 (org-add-link-type
  "vmrc" 'automaticit/follow-vmrc-link)
 (defun automaticit/follow-vmrc-link (vmrclink)
